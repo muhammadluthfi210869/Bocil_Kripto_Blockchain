@@ -16,6 +16,7 @@ int main()
 {
     srand(time(NULL));
     initialize_all();
+    printf(" %s", CYAN_BG);
 
     // Variabel declaration
     int main_menu_option = 0;
